@@ -1,0 +1,120 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy,'Times New Roman', Times, serif;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* main parent div */
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+/* top navbar */
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    display: flex; /* use to make content in single "row" */
+    align-items: center; /* use to make content in "same alignment" */
+    padding: 0 40px;
+    justify-content: space-between; /* use to make space between content */
+}
+#nav-part2{
+    display: flex; /* use to make content in single "row" */
+    background-color:transparent;
+    width: 45%;
+    align-items: center; /* use to make content in "same alignment" */
+    justify-content: space-between; /* use to make space between content */
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/* top middle logo of coca cola */
+#topimage{
+    height: 70px;
+}
+/* this line id is used to create line on both side of (#topimage) i.e, middle logo */
+#line{
+    width: 100px;
+    height: 3px;
+    background-color: red;
+}
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+#left{
+    width: 70%;
+    height: 100%;
+    padding: 100px 100px;
+}
+#right{
+    width: 80%;
+    height: 100%;
+}
+
+#left h1{
+    font-size: 80px;
+    line-height: 70px;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 900;
+    font-size: 90px;
+}
+#left p{
+    margin-bottom: 50px;
+    font-size: 15px;
+    width: 60%;
+    line-height: 24px;
+
+}
+#left button{
+    background-color: red;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 800;
+    display: flex;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    background-color: blue;
+    width: 100%;
+    height: 85%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+#contentimg{
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%,-0);
+    image-rendering: crisp-edges;
+}
